@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+<title>Mechanical Keyboards!</title>
+
+</head>
+  <body>
+<!-- Modal for pop-up cart -->
+<div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+        <div class="modal-body">
+      <table class="show-cart table"></table>
+      <div>Total price: $<span class="total-cart"></span></div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <a href="Checkout" class="btn btn-primary">Checkout</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Navbar start -->
+        <nav class="navbar navbar-dark navbar-expand-md py-2 justify-content-between" style="background-color: #5e5b92;">
+          <div class="container-fluid">
+            <div class="navbar-collapse collapse dual-nav w-50 order-1 order-md-0">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link pl-0" href="Home">Home <span class="sr-only">Home</span></a>
+                 </li>
+                <li class="nav-item active">
+              <a class="nav-link" href="Products">Products</a>
+            </li>
+              <li class="nav-item">
+                <a class="nav-link" href="FAQs">FAQs</a>
+                </li>
+              <li class="nav-item">
+            <a class="nav-link" href="Updates">Updates</a>
+          </li>
+        </ul>
+      </div>
+    <a href="/" class="navbar-brand mx-auto d-block text-center " style="color: rgb(255, 255, 255); transform: translateX(-50%);
+  left: 50%; position: absolute;"><span class="mb-0 h3">Mechanical Keyboards</span></a>       
+<div class="btn-group">
+<ul class="nav navbar-nav navbar-right">
+<!-- Right -->
+            <form class="form-inline my- my-lg-0">         
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-dark my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+
+<!-- Shopping cart-->
+    <button class="btn btn-secondary" type="button" data-toggle="modal" data-target="#cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i>(<span class="total-count"></span>)</button><div>
+      </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-nav">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+<!-- end shopping cart -->   
+  </div>
+</nav>
+<!--Navbar end-->
+
+ <!-- page wrapper for top -->
+<div style="background: url(/images/acnh.png); background-size: cover;" class="page-holder bg-cover">
+  <div class="container py-5">
+    <header class="text-center text-white py-5">
+      <h1 class="display-4 font-weight-bold mb-4" style = "color: rgb(218, 73, 116); text-shadow: 2px 2px 4px #000000;"><br><br>In Stock</h1>
+      <h3 class="font-weight-bold mb-5" style = "color: rgb(16, 158, 80); text-shadow: 2px 2px 4px #000000;"><br>The Latest Products Listed Down Below.</h3>
+    </header>
+  </div>
+</div>
+<!-- end of page wrapper -->
+
+<!--*Title for each row & space inbetween*-->
+<div id = "keyboardKitpage" class = "keyboardKit text-center" style="height: 50px; background-color: #2e2d41; font-family: monospace; color: white;"><br><h2>Keyboard Kits</h2></div>
+<div style="height: 50px; background-color: #2e2d41;"></div>
+
+<!--product 1 row 1-->
+<div class="card overflow-hidden" style="background-color: #2e2d41; color: white;">
+<div class="row">
+<div class="col-sm-3">
+<div class="card card-block" style ="background-color: #777597;">
+  <img class="card-img-top"  alt="switch" src="keyboardKit1.png" data-holder-rendered="true" style="display: block;">
+  <div class="card-block">
+    <div class="text-center">
+    <h4 class="card-title font-weight-bold" style ="color: rgb(255, 255, 255);">KBDFANS PEBBLE MECHANICAL KEYBOARD KIT<br><span style="color: rgb(255, 217, 0)">$199.00</span></h4>
+    <p class="card-text" style ="color: rgb(255, 255, 255);"><h5>Includes:</h5>Aluminum Case x1<br>Brass Plate x1<br>Dz60rgb-hhkb PCB x1<br>Cherry PCB Mount Stabilizers<br>USB-C USB Cable x1<br>Rubber feet x4</p>
+     </div>
+    <br>
+    <br>
+
+    <div class="text-center">
+    <a href="#" data-name="KBDFANS" data-price="199.00" class="add-to-cart btn btn-warning">BUY NOW</a>
+    </div>
+
+</div>
+</div>
+</div>
+
+<!--product 2 row 1-->
+<div class="col-sm-3">
+<div class="card card-block" style ="background-color: #777597;">
+  <img class="card-img-top"  alt="switch" src="keyboardKit2.png" data-holder-rendered="true" style="display: block;">
+  <div class="card-block">
+    <div class="text-center">
+    <h4 class="card-title font-weight-bold" style ="color: rgb(255, 255, 255);">KBD75 V2 SOLDERED CUSTOMIZED MECHANICAL KEYBOARD DIY KIT<br><span style="color: rgb(255, 217, 0)">$169.00</span></h4>
+    <p class="card-text" style ="color: rgb(255, 255, 255);"><h5>Includes:</h5>Anodized aluminum Case<br>Brass Plate x1<br>KBD75 Rev 2.0 Soldered PCB x1<br>Cherry screw-in stabs 60 set<br>Acrylic mid-layer<br>Rubber feet and screws</p>
+    </div>
+    <br>
+    <br>
+
+    <div class="text-center">
+    <a href="#" data-name="KBD75" data-price="169.00" class="add-to-cart btn btn-warning">BUY NOW</a>
+    </div>
+
+</div>
+</div>
+</div>
+
+<!--product 3 row 1-->
+<div class="col-sm-3">
+<div class="card card-block" style ="background-color: #777597;">
+  <img class="card-img-top"  alt="switch" src="keyboardKit3.png" data-holder-rendered="true" style="display: block;">
+  <div class="card-block">
+    <div class="text-center">
+    <h4 class="card-title font-weight-bold" style ="color: rgb(255, 255, 255);">TOFU96 MECHANICAL KEYBOARD DIY KIT<br><span style="color: rgb(255, 217, 0)">$199.00</span></h4>
+    <p class="card-text" style ="color: rgb(255, 255, 255);"><h5>Includes:</h5>Case x1<br>Plate x1<br>PCB x1<br>USB-C cable x1<br>Stabilizers 104 set x1<br>Rubber feet and screws</p>
+    </div>
+    <br>
+    <br>
+
+    <div class="text-center">
+    <a href="#" data-name="TOFU96" data-price="199.00" class="add-to-cart btn btn-warning">BUY NOW</a>
+    </div>
+
+</div>
+</div>
+</div>
+
+<!--product 4 row 1-->
+<div class="col-sm-3">
+<div class="card card-block" style ="background-color: #777597;">
+  <img class="card-img-top" src= "keyboardKit4.png"  alt="switch" data-holder-rendered="true" style="display: block;">
+  <div class="card-block">
+    <div class="text-center">
+    <h4 class="card-title font-weight-bold" style ="color: rgb(255, 255, 255);">D84 V2 75% GASKET MOUNT MECHANICAL KEYBOARD DIY KIT<br><span style="color: rgb(255, 217, 0)">$239.00</span></h4>
+    <p class="card-text" style ="color: rgb(255, 255, 255);"><h5>Includes:</h5>Case x1<br>Plate x1<br>PCB x1<br>Stabilizer set x1<br>USB A to C Cable x1<br>PCB foam x1<br>Rubber feet and screws</p>
+    </div>
+    <br>
+
+    <div class="text-center">
+    <a href="#" data-name="D84" data-price="239.00" class="add-to-cart btn btn-warning">BUY NOW</a>
+    </div>
+
+  </div>
+  </div>
+  </div>
+</div>
+</div>
+</div>
+<!--row 1 end-->
+
+<!--*Title for each row & space inbetween*-->
+<div id="switchesPage" class = "Switches text-center" style="height: 50px; background-color: #2e2d41; font-family: monospace; color: white;"><br><h2>Switches</h2></div>
+<div style="height: 50px; background-color: #2e2d41;"></div>
+
+<!--product 1 row 2-->
+<div class="card overflow-hidden" style="background-color: #2e2d41; color: white;">
+<div class="row">
+<div class="col-sm-3">
+<div class="card card-block" style ="background-color: #777597;">
+  <img class="card-img-top"  alt="switch" src="newSwitches.png" data-holder-rendered="true" style="display: block;">
+  <div class="card-block">
+    <div class="text-center">
+    <h4 class="card-title font-weight-bold" style ="color: rgb(255, 255, 255);">SP-STAR MARBLE SODA SWITCHES<br><span style="color: rgb(255, 217, 0)">$16.25</span></h4>
+    <p class="card-text" style ="color: rgb(255, 255, 255);">Introducing the Marble Soda Series Switches. These SP-Star switches are a linear switch, made in custom colorways to match our favorite carbonated beverage to pop open after an arduous journey, exploring the outer reaches.</p>
+    </div>
+    <br>
+    <br>
+
+  <div class="text-center">
+  <a href="#" data-name="Soda_Switches" data-price="16.25" class="add-to-cart btn btn-warning">BUY NOW</a>
+  </div>
+
+</div>
+</div>
+</div>
+
+<!--product 2 row 2-->
+<div class="col-sm-3">
+<div class="card card-block" style ="background-color: #777597;">
+  <img class="card-img-top"  alt="switch" src="kiwiSwitches.png" data-holder-rendered="true" style="display: block;">
+  <div class="card-block">
+    <div class="text-center">
+    <h4 class="card-title font-weight-bold" style ="color: rgb(255, 255, 255);">C³EQUALZ X TKC KIWI SWITCHES<br><span style="color: rgb(255, 217, 0)">$16.25</span></h4>
+    <p class="card-text" style ="color: rgb(255, 255, 255);">Kiwi Switches are a tactile switch with a 67g spring and T1 stem.These switches are sold in packs of 25 switches. 1 unit = 25 switches. Limit of 5 units (i.e. 125 switches) per customer.</p>
+    </div>
+    <br>
+    <br>
+    <br>
+
+  <div class="text-center">
+  <a href="#" data-name="Kiwi_Switches" data-price="16.25" class="add-to-cart btn btn-warning">BUY NOW</a>
+  </div>
+
+</div>
+</div>
+</div>
+
+<!--product 3 row 2-->
+<div class="col-sm-3">
+<div class="card card-block" style ="background-color: #777597;">
+  <img class="card-img-top"  alt="switch" src="switchYellow.png" data-holder-rendered="true" style="display: block;">
+  <div class="card-block">
+    <div class="text-center">
+    <h4 class="card-title font-weight-bold" style ="color: rgb(255, 255, 255);">SP-STAR MAGIC GIRL CLASSIC SWITCHES<br><span style="color: rgb(255, 217, 0)">$16.25</span></h4>
+    <p class="card-text" style ="color: rgb(255, 255, 255);">New to the galaxy. These SP-Star switches are a tactile switch, made in custom colorways to match Magic Girl keycaps.</p>
+    </div>
+    <br>
+    <br>
+    <br>
+
+  <div class="text-center">
+  <a href="#" data-name="Magic_Girl_Classic_Switches" data-price="16.25" class="add-to-cart btn btn-warning">BUY NOW</a>
+  </div>
+    
+</div>
+</div>
+</div>
+
+<!--product 4 row 2-->
+<div class="col-sm-3">
+<div class="card card-block" style ="background-color: #777597;">
+  <img class="card-img-top"  alt="switch" src="cherrySwitch.png" data-holder-rendered="true" style="display: block;">
+  <div class="card-block">
+    <div class="text-center">
+    <h4 class="card-title font-weight-bold" style ="color: rgb(255, 255, 255);">CHERRY MX SWITCHES<br><span style="color: rgb(255, 217, 0)">$16.25</span></h4>
+    <p class="card-text" style ="color: rgb(255, 255, 255);">CHERRY MX is the world leader in keyswitch technology, and their CHERRY MX switches are industry titans.</p>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+
+  <div class="text-center">
+  <a href="#" data-name="Cherry_Switches" data-price="16.25" class="add-to-cart btn btn-warning">BUY NOW</a>
+  </div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--row 2 end-->
+
+<!--*Title for each row & space inbetween*-->
+<div class = "Switches text-center" style="height: 50px; background-color: #2e2d41; font-family: monospace; color: white;"><br><h2>Deskmats</h2></div>
+<div style="height: 50px; background-color: #2e2d41;"></div>
+
+<!--product 1 row 3-->
+<div id = "deskmatPage" class="card overflow-hidden" style="background-color: #2e2d41; color: white;">
+<div class="row">
+<div class="col-sm-3">
+<div class="card card-block" style ="background-color: #777597;">
+  <img class="card-img-top"  alt="switch" src="clackCat.png" data-holder-rendered="true" style="display: block;">
+  <div class="card-block">
+    <div class="text-center">
+    <h4 class="card-title font-weight-bold" style ="color: rgb(255, 255, 255);">CLACK CAT DESKMAT SERIES 2021<br><span style="color: rgb(255, 217, 0)">$30.00</span></h4>
+    <p class="card-text" style ="color: rgb(255, 255, 255);">A minimalist Clack Cat deskmat to serve as your smol but mighty desk companion.</p>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+
+  <div class="text-center">
+  <a href="#" data-name="Cat_Deskmat" data-price="30.00" class="add-to-cart btn btn-warning">BUY NOW</a>
+  </div>
+
+</div>
+</div>
+</div>
+
+<!--product 2 row 3-->
+<div class="col-sm-3">
+<div class="card card-block" style ="background-color: #777597;">
+  <img class="card-img-top"  alt="switch" src="switchSwirl.png" data-holder-rendered="true" style="display: block;">
+  <div class="card-block">
+    <div class="text-center">
+    <h4 class="card-title font-weight-bold" style ="color: rgb(255, 255, 255);">ALEXOTOS X TKC DESKMAT - SWITCH SWIRL<br><span style="color: rgb(255, 217, 0)">$20.00</span></h4>
+    <p class="card-text" style ="color: rgb(255, 255, 255);">Kicking off the official Artist X TKC Collaboration series, we are so excited to bring this first installment from the one and only Alexotos to the community.</p>
+    </div>
+    <br>
+    <br>
+
+  <div class="text-center">
+  <a href="#" data-name="Switch_Swirl" data-price="20.00" class="add-to-cart btn btn-warning">BUY NOW</a>
+  </div>
+
+</div>
+</div>
+</div>
+
+<!--product 3 row 3-->
+<div class="col-sm-3">
+<div class="card card-block" style ="background-color: #777597;">
+  <img class="card-img-top"  alt="switch" src="fruitMat.png" data-holder-rendered="true" style="display: block;">
+  <div class="card-block">
+    <div class="text-center">
+    <h4 class="card-title font-weight-bold" style ="color: rgb(255, 255, 255);">STRAWBERRY LEMONADE DESKMAT<br><span style="color: rgb(255, 217, 0)">$20.00</span></h4>
+    <p class="card-text" style ="color: rgb(255, 255, 255);">Designed by Dazon. Goes with your Infinikey Strawberry Lemonade keycaps.</p>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+
+  <div class="text-center">
+  <a href="#" data-name="Strawberry_Lemonade" data-price="20.00" class="add-to-cart btn btn-warning">BUY NOW</a>
+  </div>
+
+</div>
+</div>
+</div>
+
+<!--product 4 row 3-->
+<div class="col-sm-3">
+<div class="card card-block" style ="background-color: #777597;">
+  <img class="card-img-top" src= "mechMat.png"  alt="switch" data-holder-rendered="true" style="display: block;">
+  <div class="card-block">
+    <div class="text-center">
+    <h4 class="card-title font-weight-bold" style ="color: rgb(255, 255, 255);">MECH MAT<br><span style="color: rgb(255, 217, 0)">$25.00</span></h4>
+    <p class="card-text" style ="color: rgb(255, 255, 255);">A vibrant deskmat, designed by Alexotos. Available in two variants: classic and splatter. Images here are prototype photos.</p>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+
+  <div class="text-center">
+  <a href="#" data-name="Mech_mat" data-price="25.00" class="add-to-cart btn btn-warning">BUY NOW</a>
+  </div>
+
+</div>
+</div>
+</div>
+</div>
+<!--row 3 end-->
+
+<!--Space before footer-->
+<div style="height: 50px; background-color: #2e2d41;"></div>
+
+</body>
+  </html>
